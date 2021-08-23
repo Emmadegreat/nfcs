@@ -1,0 +1,401 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+  color: yellow !important;
+}
+
+/*button a:hover{
+  text-decoration: none !important;
+  color: yellow !important;
+  }*/
+
+
+
+/*******************HEADER**************************/
+.navbar3{
+        background-color: midnightblue;
+        color: #fff;
+        margin: 0px !important;
+        height: 52px;
+        padding: 0px 20px 0px 20px;
+
+
+      }
+
+.navbar a{
+  color: white;
+}
+
+nav{
+  background: grey;
+  height: 50px;
+  width: 100%;
+}
+
+/*****.title{
+  margin-left: 40px;
+  font-size: 35px;
+  font-family: cursive;
+  color: yellow;
+  line-height: 47px;
+  font-weight: bold;
+  padding: 0 5px;
+  display: none;
+}****/
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+  /*border: 1px solid #ff523b;*/
+}
+
+nav ul li{
+  font-siz
+  text-transform: capitalize !important;
+  display: inline-block;
+  margin: 0 16px;
+  line-height: 3;
+}
+nav ul li a{
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 7px 4px;
+  text-transform: Capitalize;
+  /*border: 1px solid green;*/
+}
+
+nav ul li a:hover{
+  color: yellow;
+  text-decoration: none;
+  }
+
+a.active,a:hover{
+  /*background: #ff523b;
+  transition: .5s;*/
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+.logo p{
+  width:120px;
+  float: left;
+  height: 50px;
+  font-family: cursive;
+  line-height: 3.5;
+  /*border: 2px solid #ff523b;*/
+}
+
+.logo p small{
+  color: yellow;
+}
+
+.title{
+  width:120px;
+  float:right !important;
+  margin: 8px 20px 0px 0px !important;
+  /*border: 2px solid yellow;
+  background: blue;*/
+}
+
+.btn-primary{
+  background: midnightblue !important;
+  border: none !importan;
+}
+
+/*.tit{
+  width:150px;
+  float:right;
+  margin-top: 16px;
+  border: 2px solid yellow;
+}*/
+
+
+
+
+
+/****************** ANIMATED BUTTON*************************/
+
+.button{
+  width: 120px;
+  display: inline-block;
+  height: 35px;
+  background: #191970;
+  outline: none;
+  border-radius: 20px;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 18px;
+  
+}
+
+.button:hover{
+  background: #228B22;
+  color: #fff;
+}
+
+.button span{
+  position: relative;
+  transition: 0.5s;
+  display: inline-block;
+}
+.button span:after{
+  content: '\00bb';
+  position: absolute;
+}
+
+.button:hover span{
+  padding-right: 20px;
+}
+
+/*****************COL-SM-4******************************/
+.col-sm-4{
+  text-align: justify-all;
+}
+
+/***********************FOOTER***************************/
+footer{
+  background: #1d3044;
+  width: 100%;
+  padding: 20px 30px 20px 30px;
+}
+
+
+.row{
+  /*border: 2px solid #bb2345;*/
+  padding: 3px;
+}
+.col-sm-6{
+  text-align: center;
+  color:  #808080;
+  /*border: 2px solid black;*/
+  font-size: 18px;
+  display: block;
+}
+
+
+
+
+.col-sm-6 ol li{
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
+}
+
+.col-sm-6 ol li a{
+  text-decoration: none;
+  margin-right: 40px;
+  /*font-size: 30px;*/
+  color: #808080;
+}
+
+.col-sm-6 ol li a:hover{
+  text-decoration: none;
+  color: #ffff00;
+
+}
+
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #fff;
+}
+
+.col-sm-12 p{
+  color: #808080;
+  text-align: center;
+  font-size: 18px;
+}
+
+.col-sm-6 h2{
+  font-family: cursive;
+}
+
+
+.col-sm-12 a{
+  text-decoration: none;
+  color: #808080;
+  font-size: ;
+}
+
+.col-sm-12 a:hover{
+  text-decoration: none;
+  color: #ffff00;
+  font-size: ;
+}
+
+/*******************************************FOOTER ENDS*************************************/
+
+/****************************************SECTION***********************************************/
+section{
+  background-image: url("../images/Zik.jpg");
+  background-size: cover;
+  background-position: relative !important;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  margin: 102px 0px 0px 0px;
+}
+
+
+/***********************BODY first-container******************************/
+h1{
+  text-align: center;
+  font-family: Arial Black;
+  color: steelblue !important;
+  text-transform: lowercase;
+}
+
+h3{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#first_row,#last_row{
+  background: #fff;
+}
+
+#first_cont{
+  background: steelblue;
+}
+
+.h1,.h1_{
+  color: #fff !important;
+  text-transform: lowercase;
+}
+#last_row p{
+  text-align: justify;
+  font-size: 18px;
+}
+section p{
+  text-align: center;
+  line-height: 10;
+  font-size: 50px;
+  color: #fff;
+}
+
+/**************************PANEL*********************************/
+/*.panel-default{
+    width: 100%;
+    height: 400px;
+    background-color: white !important;
+
+  }
+.panel-heading{
+    width: 100%;
+    border: 0px !important;
+    display: block;
+    text-align: center;
+    line-height: 50px !important;
+    text-transform: capitalize;
+    font-family: cursive;
+    height: 80px;
+    background: #fff !important
+  }*/
+  .panel-body{
+    /*width: 92%;*/
+    height: 460px !important;
+    background-color: lightgray;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-left: 3px solid midnightblue;
+    border-radius: 6px !important;
+    font-size: 18px;
+  }
+
+  .panel-footer{
+    width: 100%;
+    height: 70px;
+    border: 0px !important;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  #profile_pix,#profile_pix1,#profile_pix2{
+    border-radius: 0% !important;
+    position: relativ;
+    left: 0px;
+    height: 430px;
+    width: 100%;
+  }
+
+
+/***************PANEL_BODY P *********************/
+#p,#p1,#p2,#p3{
+  font-size: 26px;
+  text-align: justify;
+}
+
+
+
+  
+
+
+
+
+
+/*************************MEDIA QUERY FOR HEADER******************************/
+
+
+@media (max-width: 858px) and (min-width: 320px){
+  .checkbtn{
+    display: block;
+  }
+
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 64vh;
+    background: midnightblue;
+    top: 102px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 40px 0;
+    line-height: 10px;
+    margin-top: 15px;
+  }
+
+  nav ul li a{
+    font-size: 16px;
+  }
+
+  a:hover{
+    background: none;
+    color: yellow;
+  }
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+  #check{
+  display: none;
+}
+}
+
